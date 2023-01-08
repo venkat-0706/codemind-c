@@ -15,6 +15,7 @@ int main()
     q=sq2;
     sum=0;
     while(q!=0)
+
     {
         num=q%10;
         sum=sum*10+num;
