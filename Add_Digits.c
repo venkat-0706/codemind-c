@@ -1,17 +1,25 @@
 #include<stdio.h>
 int main()
 {
-    int n,d,sum=0;
+    int n,i,sum=0,r;
     scanf("%d",&n);
-    while(n>0 || sum>9)
+    do
     {
-        if(n==0)
+        sum=0;
+        do
         {
+            r=n%10;
+            sum=sum+r;
+            n=n/10;
+         }
+         while(n!=0);
+         {
             n=sum;
-            sum=0;
-        }
-        sum=sum+n%10;
-        n=n/10;
+         }
+    }     
+    while(sum/10!=0);
+    {
+        printf("%d",sum);
     }
-    printf("%d",sum);
+    return 0;
 }
