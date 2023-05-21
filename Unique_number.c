@@ -1,18 +1,16 @@
 #include<stdio.h>
 int main()
 {
-    int a[10]={0},n,r;
+    int n,r;
     scanf("%d",&n);
-    while(n>0)
-    {
+    int arr[10];
+    while(n>0) {
         r=n%10;
-        if(a[r]==1)
-        {
+        if(arr[r]==1) {
             break;
         }
-        else
-        {
-            a[r]=1;
+        else {
+            arr[r]=1;
         }
         n=n/10;
     }
@@ -20,8 +18,7 @@ int main()
     {
         printf("Not Unique Number");
     }
-    else
-    {
+    else {
         printf("Unique Number");
     }
 }
