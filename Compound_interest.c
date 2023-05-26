@@ -1,9 +1,26 @@
-#include<stdio.h>
-#include<math.h>
-int main()
-{
- double p,t,r,a;
- scanf("%lf %lf %lf",&p,&r,&t);
- a=p*pow((1+r/100),t);
- printf("%0.2f",a);
+#include <stdio.h>
+
+double calculateCompoundInterest(double principal, double rate, int time);
+
+int main() {
+    double principal, rate, interest;
+    int time;
+    scanf("%lf", &principal,&rate,&time);
+    scanf("%lf", &rate);
+    scanf("%d", &time);
+
+    interest = calculateCompoundInterest(principal, rate, time);
+    printf("%.2lf
+", principal + interest);
+
+    return 0;
+}
+
+double calculateCompoundInterest(double principal, double rate, int time) {
+    double interest = principal;
+    for (int i = 0; i < time; i++) {
+        interest = interest * (1 + (rate / 100));
+    }
+    interest -= principal;
+    return interest;
 }
