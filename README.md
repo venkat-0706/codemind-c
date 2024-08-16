@@ -1,4 +1,4 @@
-## Mastering C Programming: A 250+ Problem Journey
+## Mastering C Programming: A 200+ Problem Journey
 
 As a BTech Computer Science student, delving deep into C programming was foundational. Tackling over 250 problems on Codemind provided a comprehensive understanding of the language's intricacies.
 
