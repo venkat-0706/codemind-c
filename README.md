@@ -2,6 +2,8 @@
 
 As a BTech Computer Science student, delving deep into C programming was foundational. Tackling over 250 problems on Codemind provided a comprehensive understanding of the language's intricacies.
 
+# CodeMind Profile : https://thecodemind.io/app/dashboard.php
+
 # Core Topics Covered:
 
 * Fundamental Constructs:** Variables, data types, operators, control flow (if-else, loops, switch), functions.
