@@ -42,4 +42,3 @@ As a BTech Computer Science student, delving deep into C programming was foundat
 
 This intensive practice on Codemind has equipped me with a strong C programming foundation, preparing me for more advanced programming challenges and real-world projects.
  
-**Would you like to know more about a specific aspect of C programming or problem-solving techniques?** 
